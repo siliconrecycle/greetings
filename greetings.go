@@ -39,6 +39,9 @@ func randomFormat() string {
 		"Great to see you, %v!",
 		"你好，欢迎你的到来, %v ！",
 	}
-
 	return formats[rand.Intn(len(formats))]
+}
+
+func greeting(name string) string {
+	return fmt.Sprintf("hello, %v", name)
 }
