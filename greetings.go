@@ -42,6 +42,6 @@ func randomFormat() string {
 	return formats[rand.Intn(len(formats))]
 }
 
-func greeting(name string) string {
+func Greeting(name string) string {
 	return fmt.Sprintf("hello, %v", name)
 }
